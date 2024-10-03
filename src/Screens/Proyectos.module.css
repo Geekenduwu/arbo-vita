@@ -1,0 +1,94 @@
+.Proyectos {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #3fad32, #285c23);
+    padding: 20px 20px 100px;
+    align-items: center;
+}
+
+.titleContainer {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.contentContainer {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.Proyectos p {
+    font-size: 1.5em;
+    color: #f1f1f1;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+
+.ctaContainer {
+    padding-top: 40px;
+}
+
+.logo {
+    width: 40%; 
+    height: auto; 
+    margin-right: 5%; 
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.Proyectos h1 {
+    margin-top: 2%;
+    font-size: 3em;
+    color: #f1f1f1;
+    font-family: "Poppins", sans-serif;
+}
+
+.Proyectos h2 {
+    margin-top: 2%;
+    font-size: 2em;
+    color: #f1f1f1;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.textContainer {
+    width: 60%; 
+    text-align: left; 
+    margin-right: 5%;
+}
+
+iframe{
+    width: 50%;
+    height: 400px;
+}
+
+@media (max-width: 768px) {
+    
+    .Proyectos p {
+        font-size: 1em;
+        text-align: center;
+    }
+    .Proyectos h2 {
+        font-size: 1em;
+    }
+    .Proyectos h1 {
+        font-size: 1.7em;
+    }
+    .textContainer {
+        width: 80%; 
+        margin-left: 10%;
+    }
+    .logo {
+        width: 80%; 
+        height: 250px;  
+        margin-left: 4%;
+    }
+    iframe{
+        width: 70%;
+        height: 300px;
+    }
+    .contentContainer {
+        display: block;
+    }
+}
