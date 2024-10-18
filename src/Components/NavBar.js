@@ -32,8 +32,6 @@ const NavBar = () => {
     { id: 2, link: "Proyectos" },
     { id: 3, link: "Videos" },
     { id: 4, link: "Participa" },
-    
-    
   ];
 
   const scrollPosition = useScrollPosition();
@@ -80,7 +78,7 @@ const NavBar = () => {
                 duration={500}
                 className={styles.navLink}
               >
-                {link === "Videos" ? "Videos" : link}
+                {link === "Videos" ? "Vide os" : link}
               </Link>
               <div className={styles.border}></div>
             </div>

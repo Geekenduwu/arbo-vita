@@ -1,0 +1,83 @@
+.Participa {
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    flex-direction: column;
+    background: linear-gradient(180deg, #3fad32, #285c23);
+    align-items: center;
+}
+
+.Participa h2 {
+    margin-top: 2%;
+    font-size: 3em;
+    color: #f1f1f1;
+    font-family: "Poppins", sans-serif;
+}
+
+.Participa h1 {
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-family: "Poppins", sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    align-items: center;
+    font-size: 25px;
+}
+
+.form button {
+    width: 90px;
+    height: 40px;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    margin-top: 10px;
+    background-color: #44c727;
+    color: #ffffff;
+    font-size: 0.7em;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #307728; 
+}
+
+.form label {
+    color: #f1f1f1;
+    margin-top: 5px;
+    font-size: 1em;
+}
+
+.input, .textArea {
+    border: 1px solid #ffffff;
+    width: 90%;
+    height: 35px;
+    color: #000000; 
+    background-color: #f1f1f1; 
+    margin-top: 15px;
+    border-radius: 15px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+.textArea, .input {
+    padding-left: 20px; 
+    resize: none; 
+}
+
+.input:focus, .textArea:focus {
+    color: #000000; 
+    background-color: #67ed58; 
+    outline: none; 
+    border: 1px solid #ffffff; 
+}
+
+.input:valid, .textArea:valid {
+    color: #285c23; 
+}
+  
+  
