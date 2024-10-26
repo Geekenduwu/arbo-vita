@@ -12,7 +12,7 @@ const Participa = () => {
         <form
           className={styles.form}
           method="POST"
-          action=""
+          action="https://formspree.io/f/movqvogb"
         >
           <label htmlFor="Name">Nombre</label>
           <input id="Name" name="Name" className={styles.input} required />
@@ -45,6 +45,11 @@ const Participa = () => {
           <br />
           <button type="submit" className={styles.button}>Enviar</button>
         </form>
+
+
+
+
+        
       </div>
     );
   };

@@ -5,6 +5,8 @@ import Inicio from"./Screens/Inicio";
 import Proyectos from "./Screens/Proyectos";
 import Dona from "./Screens/Dona";
 import Participa from "./Screens/Participa";
+import Footer from "./Screens/Footer";
+import Galeria from "./Screens/Galeria";
 
 
 
@@ -16,7 +18,10 @@ function App() {
       <Proyectos />
       <Videos />
       <Participa />
+      <Galeria />
       <Dona />
+      <Footer />
+  
       
     </div>
   );

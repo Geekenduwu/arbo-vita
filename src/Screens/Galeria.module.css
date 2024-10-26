@@ -1,0 +1,79 @@
+.Galeria {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, #285c23, #3fad32); 
+    padding: 20px 20px 50px;
+    padding-top: 100px;
+    align-items: center; 
+  }
+  
+  h1{
+    color: white;
+    font-family: "Poppins", sans-serif;
+  }
+  .carouselContainer {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carouselImage {
+    width: 100%;
+    border-radius: 10px;
+    transition: opacity 0.5s ease;
+  }
+  
+  .prevButton, .nextButton {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2em;
+    background-color: transparent;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 10px;
+    user-select: none;
+  }
+  
+  .prevButton {
+    left: 10px;
+  }
+  
+  .nextButton {
+    right: 10px;
+  }
+  
+  .prevButton:hover, .nextButton:hover {
+    color: #ccc;
+  }
+  
+  /* Indicadores de puntos */
+  .indicatorsContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .indicator {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+    background-color: #ccc;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .indicator:hover {
+    background-color: #888;
+  }
+  
+  .active {
+    background-color: #ffffff; 
+  }
+  

@@ -1,7 +1,7 @@
 .Dona {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(180deg, #285c23, #3fad32);
+    background: linear-gradient(180deg, #3fad32, #285c23);
     padding: 20px 20px 200px;
     align-items: center;
   }
