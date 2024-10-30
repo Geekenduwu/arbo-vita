@@ -88,6 +88,15 @@
   
     .infoContainer p {
       font-size: 1em;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .logo {
+      width: 20%; 
+      margin-top: 20px;
+    }
+    .logoContainer {
+      padding-right: 0px;
     }
   }
   

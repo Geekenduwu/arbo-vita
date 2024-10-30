@@ -7,6 +7,7 @@ import Dona from "./Screens/Dona";
 import Participa from "./Screens/Participa";
 import Footer from "./Screens/Footer";
 import Galeria from "./Screens/Galeria";
+import Testimonios from "./Screens/Testimonios";
 
 
 
@@ -20,7 +21,9 @@ function App() {
       <Participa />
       <Galeria />
       <Dona />
+      <Testimonios />
       <Footer />
+      
   
       
     </div>

@@ -11,6 +11,7 @@
 
 .navOpen {
   display: flex;
+  align-items: center;
   position: fixed;
   height: 100%;
   width: 100%;
@@ -29,21 +30,14 @@
   font-size: 2em;
   font-weight: 400;
   color: #f1f1f1;
-  padding-top: 90px;
+  padding-top: 70px;
   font-family: "Poppins", sans-serif;
   text-align: center;
+  margin-right: 35px;
 }
 .navLink:hover {
   cursor: pointer;
 }
-
-/* .border {
-  display: flex;
-  height: 1px;
-  animation-name: animacionborde;
-  animation-duration: 1s;
-  background-color: rgb(57, 145, 115);
-} */
 
 @keyframes animacionborder {
   0% {

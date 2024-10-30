@@ -1,7 +1,7 @@
 .Participa {
     display: flex;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 80px;
+    padding-bottom: 50px;
     flex-direction: column;
     background: linear-gradient(180deg, #3fad32, #285c23);
     align-items: center;
@@ -9,6 +9,7 @@
 
 .Participa h2 {
     margin-top: 2%;
+    margin-bottom: 0px;
     font-size: 3em;
     color: #f1f1f1;
     font-family: "Poppins", sans-serif;
@@ -79,5 +80,24 @@
 .input:valid, .textArea:valid {
     color: #285c23; 
 }
-  
+
+@media (max-width: 768px) {
+    
+    .Participa h2 {
+        font-size: 2em;
+    }
+    .Participa h1 {
+        
+        font-size: 1em;
+        margin-left: 5%;
+            margin-right: 5%;
+            
+    
+    }
+    .form {
+        
+        font-size: 18px;
+    }
+    }
+
   

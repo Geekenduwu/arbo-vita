@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background: linear-gradient(180deg,#285c23, #3fad32);
-    padding: 20px 20px 50px;
+    padding: 20px 20px 10px;
     align-items: center;
 }
 
@@ -34,4 +34,33 @@
     margin-left: 20%;
     margin-right: 20%;
     font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 1200px) {
+    
+    .videoContainer iframe {
+        width: 500px;
+    }
+    @media (max-width: 768px) {
+    
+        .videoContainer iframe {
+            width: 80%;
+            height: 150px;
+        }
+        .Videos h1 {
+            font-size: 1em;
+            margin-left: 5%;
+            margin-right: 5%;
+            
+        }
+        .title {
+            
+            font-size: 2em;
+        }
+    }
+    .videoContainer {
+        flex-direction: column; 
+        align-items: center;
+        gap: 20px;
+    }
 }
