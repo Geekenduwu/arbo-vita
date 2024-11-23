@@ -1,63 +1,129 @@
 .testimoniosSeccion {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px 20px 10px;
-    background: linear-gradient(180deg, #285c23, #3fad32); 
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 20px 50px;
+  background: linear-gradient(180deg, #285c23, #3fad32);
+}
+
+.testimoniosSeccion h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.testimoniosGrid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonio {
+  max-width: 300px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.imagen {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.texto {
+  font-style: italic;
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-family: "Poppins", sans-serif;
+}
+
+.nombre {
+  font-weight: bold;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+}
+
+.faqSeccion {
+  margin-top: 60px;
+  width: 100%;
+  max-width: 800px;
+  background-color: #3c7526;
+  border-radius: 10px;
+  padding: 20px;
+  padding-bottom: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.faqSeccion h2 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.faqGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.faqItem {
+  border: 1px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faqPregunta {
+  background-color: #449251;
+  color: #ffffff;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  padding: 10px 15px;
+  text-align: left;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.faqPregunta span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.faqRespuesta {
+  padding: 10px 15px;
+  margin-top: 0px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  background-color: #4b824c;
+}
+
+@media (max-width: 768px) {
+  .testimonio {
+    font-size: 16px;
   }
 
-.testimoniosSeccion {
-    text-align: center;
-    padding: 20px;
+  .faqSeccion {
+    padding: 15px;
   }
-  
-  .testimoniosSeccion h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
+
+  .faqPregunta {
+    font-size: 16px;
   }
-  
-  .testimoniosGrid {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
+
+  .faqRespuesta {
+    font-size: 14px;
   }
-  
-  .testimonio {
-    max-width: 300px;
-    text-align: center;
-    font-size: 18px;
-  }
-  
-  .imagen {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 10px;
-  }
-  
-  .texto {
-    font-style: italic;
-    color: #ffffff;
-    margin-bottom: 10px;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .nombre {
-    font-weight: bold;
-    color: #ffffff;
-    font-family: "Poppins", sans-serif;
-    font-size: 20px;
-  }
-  
-  @media (max-width: 768px) {
-    
-    .testimonio {
-        font-size: 16px;
-      }
-    
 }
+
 

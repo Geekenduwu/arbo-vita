@@ -6,7 +6,13 @@
     background: linear-gradient(180deg, #3fad32, #285c23);
     align-items: center;
 }
-
+h3{
+    margin-top: 2%;
+    margin-bottom: 0px;
+    font-size: 2em;
+    color: #f1f1f1;
+    font-family: "Poppins", sans-serif;
+}
 .Participa h2 {
     margin-top: 2%;
     margin-bottom: 0px;
@@ -46,7 +52,7 @@
 }
 
 .form button:hover {
-    background-color: #307728; 
+    background-color: #307728;
 }
 
 .form label {
@@ -59,45 +65,55 @@
     border: 1px solid #ffffff;
     width: 90%;
     height: 35px;
-    color: #000000; 
-    background-color: #f1f1f1; 
+    color: #000000;
+    background-color: #f1f1f1;
     margin-top: 15px;
     border-radius: 15px;
     transition: color 0.3s ease, background-color 0.3s ease;
 }
+
 .textArea, .input {
-    padding-left: 20px; 
-    resize: none; 
+    padding-left: 20px;
+    resize: none;
 }
 
 .input:focus, .textArea:focus {
-    color: #000000; 
-    background-color: #67ed58; 
-    outline: none; 
-    border: 1px solid #ffffff; 
+    color: #000000;
+    background-color: #67ed58;
+    outline: none;
+    border: 1px solid #ffffff;
 }
 
 .input:valid, .textArea:valid {
-    color: #285c23; 
+    color: #285c23;
 }
 
-@media (max-width: 768px) {
-    
-    .Participa h2 {
+
+.calendarContainer {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.calendarContainer iframe {
+    width: 70%; 
+    height: 500px; 
+    border: none;
+    max-width: 900px; 
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {.Participa h2 {
         font-size: 2em;
     }
-    .Participa h1 {
-        
-        font-size: 1em;
+    .Participa h1 {font-size: 1em;
         margin-left: 5%;
-            margin-right: 5%;
-            
-    
+        margin-right: 5%;
     }
-    .form {
-        
-        font-size: 18px;
+    .form {  font-size: 18px;
     }
+    .calendarContainer iframe {
+        height: 300px;
     }
-
-  
+}
