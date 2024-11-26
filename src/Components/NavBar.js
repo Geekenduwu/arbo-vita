@@ -21,7 +21,7 @@ const NavBar = () => {
 
   useEffect(() => {
     window.addEventListener("resize", detectDimension);
-    windowDimension.width > 1000 && setNavBarOpen(false);
+    windowDimension.width > 1030 && setNavBarOpen(false);
     return () => {
       window.removeEventListener("resize", detectDimension);
     };
@@ -53,14 +53,14 @@ const NavBar = () => {
           <p className={styles.logoText}>ArboVita</p>
         </div>
       )}
-      {!navBarOpen && windowDimension.width < 1000 ? (
+      {!navBarOpen && windowDimension.width < 1030 ? (
         <AiOutlineMenu
           color="#f1f1f1"
           onClick={() => setNavBarOpen(!navBarOpen)}
           size={25}
         />
       ) : (
-        windowDimension.width < 1000 && (
+        windowDimension.width < 1030 && (
           <AiOutlineClose
             onClick={() => setNavBarOpen(!navBarOpen)}
             color="#f1f1f1"
@@ -86,7 +86,7 @@ const NavBar = () => {
           ))}
         </ul>
       )}
-      {windowDimension.width > 1000 && (
+      {windowDimension.width > 1030 && (
         <ul className={styles.linksContainer}>
           {links.map(({ link, id }) => (
             <div key={id}>

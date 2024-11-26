@@ -31,7 +31,7 @@
 }
 
 .logo {
-    width: 40%; 
+    width: 35%; 
     height: auto; 
     margin-right: 5%; 
     margin-left: 5%;
@@ -80,8 +80,8 @@ iframe{
         margin-left: 10%;
     }
     .logo {
-        width: 90%; 
-        height: 180px;  
+        width: 70%; 
+        height: auto;  
         margin-left: 4%;
     }
     iframe{

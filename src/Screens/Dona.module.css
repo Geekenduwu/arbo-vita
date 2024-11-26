@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     background: linear-gradient(180deg, #3fad32, #285c23);
-    padding: 20px 20px 100px;
+    padding: 20px 20px 50px;
     align-items: center;
   }
   .titleContainer {
@@ -58,6 +58,48 @@
     flex-direction: column;
     align-items: center;
   }
+  .colaboradores {
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  
+  .colaboradores h2 {
+    font-size: 1.5em;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .colaboradores p {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin: 0 auto;
+    max-width: 800px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .logoContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .logoColaborador {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .logoColaborador:hover {
+    transform: scale(1.1);
+  }
+  
 
   @media (max-width: 768px) {
     .logo {
